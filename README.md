@@ -69,5 +69,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### "Note: for the reader"
+### Note: for the reader
 I didn't continue to use Redux toolkit due to having hard to time to figure out how to use it properly, I got a problem in the part of MapStateToProps and in the part of Reducer, I've been stuck for a days. so I decide to go back in the local state and finish the project from FreeCodeCamp. and also this is my own way to solve the problem but honestly I just copy the source of Random-Quote-Machine at FreeCodeCamp certification project because of I don't have much time to spent and study codepen. and that's all thank you.

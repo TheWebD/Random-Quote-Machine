@@ -1,0 +1,116 @@
+:root {
+    --font-raleway: 'Raleway', sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-raleway);
+    font-size: 1.5rem;
+    transition: all .8s ease-in-out;
+    /*To-do put this on jsx
+    Now it should be deleted*/
+    background-color: #B8E8FC;
+}
+
+.wrapper .quote-box {
+    height: auto;
+    width: 50%;
+    padding: 3rem 5rem;
+    transition: all .8s ease-in-out;
+    text-align: center;
+    line-height: 2.3rem;
+    /*To-do put this on jsx*/
+    background-color: #FFFFFF;
+}
+
+.wrapper .quote-box .bi-quote {
+    font-size: 2rem;
+    transition: all .8s ease-in-out;
+    /*To-do put this on jsx*/
+    color:#B8E8FC ;
+    font-size: 3rem;
+    opacity: 1;
+}
+
+.wrapper .quote-box .text {
+    font-size: 2rem;
+    text-align: center;
+    transition: all 1.2s ease-in-out;
+    white-space: pre-line;
+    font-weight: 600;
+    opacity: 1;
+    /*To-do put this on jsx*/
+    color: #B8E8FC;
+}
+
+.wrapper .quote-box .author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 0 1.5rem 0;
+    font-size: 1.3rem;
+    transition: all 1.2s ease-in-out;
+    font-weight: 600;
+    opacity: 1;
+    /*To-do put this on jsx*/
+    color: #B8E8FC;
+}
+
+.hide {
+    opacity: 0 !important;
+}
+
+.wrapper .quote-box .buttons {
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+    transition: all .8s ease-in-out;
+    opacity: 1;
+}
+
+.wrapper .quote-box .new-quote:hover {
+    opacity: 0.8;
+}
+
+.wrapper .quote-box .tumblr-button:hover {
+    opacity: 0.8;
+}
+
+.wrapper .quote-box .twitter-button:hover {
+    opacity: 0.8;
+}
+
+.wrapper .quote-box .buttons a {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    transition: all .8s ease-in-out;
+    /*To-do put this on jsx*/
+    color: #FFFFFF;
+    background-color: #B8E8FC;
+}
+
+.wrapper .quote-box .buttons .new-quote {
+    margin-left: auto;
+    transition: all .8s ease-in-out;
+    font-weight: 600;
+    /*To-do put these on jsx*/
+    background-color: #B8E8FC;
+    border-color: #B8E8FC;;
+    color: #FFFFFF;
+}
+
+.wrapper .footer {
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: all .8s ease-in-out;
+    /*To-do put this on jsx*/
+    color: #FFFFFF;
+}
+
+
